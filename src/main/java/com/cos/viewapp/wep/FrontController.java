@@ -27,6 +27,7 @@ public class FrontController {
 		// ViewResolver 클래스
 		// src/main/resources/templates(prefix)
 		// .mustache(suffix)
+		//디스패쳐 서블릿에서 Default ViewResolver 사용(InternalResourceViewResolver)
 		String name = "SDY";
 		model.addAttribute("name", name);
 		
